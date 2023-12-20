@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Main{
+  public static void main(String[]args){
+      Scanner sc = new Scanner(System.in);
+      System.out.println("THE CGPA CALCULATOR");
+      System.out.println("enter the marks of CSE209");
+      float a =sc.nextFloat();
+      System.out.println("enter the marks of CSE294");
+      float b =sc.nextFloat();
+      System.out.println("enter the marks of CSE201");
+      float c =sc.nextFloat();
+
+    float CGPA =(a+b+c)/30;
+    System.out.println(CGPA);
+  }
+}
