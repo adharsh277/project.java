@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[]args){
+        // String name ="ADHARSH U";
+        // name =name.toLowerCase();
+        // System.out.println(name);
+        String name="i love my country";
+        name = name.replace(" ","_");
+        System.out.println(name);
+        
+    }
+}
